@@ -1,0 +1,364 @@
+{
+  "name": "C35 Ball",
+  "vendorId": "0x414D",
+  "productId": "0x414E",
+  "lighting": "vialrgb",
+  "matrix": { "rows":4, "cols": 10 },
+  "customKeycodes": [
+        {
+            "title": "Default DPI Increase",
+            "name": "Default DPI Inc",
+            "shortName": "DPI+"
+        },
+        {
+            "title": "Default DPI Decrease",
+            "name": "Default DPI Dec",
+            "shortName": "DPI-"
+        },
+        {
+            "title": "Sniping DPI Increase",
+            "name": "Sniping DPI Inc",
+            "shortName": "Snp+"
+        },
+        {
+            "title": "Sniping DPI Decrease",
+            "name": "Sniping DPI Dec",
+            "shortName": "Snp-"
+        },
+        {
+            "title": "Sniping Momentary",
+            "name": "Sniping MO",
+            "shortName": "Snp"
+        },
+        {
+            "title": "Sniping Toggle",
+            "name": "Sniping TO",
+            "shortName": "SnpT"
+        },
+        {
+            "title": "Drag-scroll Momentary",
+            "name": "Drag-scroll MO",
+            "shortName": "Drg"
+        },
+        {
+            "title": "Drag-scroll Toggle",
+            "name": "Drag-scroll TG",
+            "shortName": "DrgT"
+        },
+        {
+            "title": "Drag-scroll DPI Increase",
+            "name": "Drag-scroll inc",
+            "shortName": "Drg+"
+        },
+        {
+            "title": "Drag-scroll DPI Decrease",
+            "name": "Drag-scroll Decrease",
+            "shortName": "Drg-"
+        },
+        {
+            "title": "Auto-mode Toggle",
+            "name": "Auto-mode TG",
+            "shortName": "ATG"
+        },
+        {
+            "title": "auto pointer layer increase 50ms",
+            "name": "auto pointer layer increase 50ms",
+            "shortName": "A50"
+        },{
+            "title": "auto pointer layer Decrease 50ms",
+            "name": "auto pointer layer Decrease 50ms",
+            "shortName": "A50-"
+        },
+        {
+            "title": "auto pointer layer increase 100ms",
+            "name": "auto pointer layer increase 100ms",
+            "shortName": "A100"
+        },
+        {
+            "title": "AUTO_THRESHOLD",
+            "name": "AUTO_THRESHOLD",
+            "shortName": "ATV"
+        },
+        {
+            "title": "trackball info",
+            "name": "trackball info",
+            "shortName": "TInfo"
+        },
+        {
+            "title": "save auto pointer layer",
+            "name": "save auto pointer layer",
+            "shortName": "T_SAVE"
+        },
+        {
+            "title": "set rotation R",
+            "name": "set rotation R",
+            "shortName": "T_R_R"
+        },
+        {
+            "title": "set rotation L",
+            "name": "set rotation L",
+            "shortName": "T_R_L"
+        }
+    ],
+  "layouts": {
+    "keymap": [
+  [
+    {
+      "y": 3,
+      "x": 8
+    },
+    "0,0\n\n\n\n\n\n\n\n\ne",
+    "0,1\n\n\n\n\n\n\n\n\ne"
+  ],
+  [
+    {
+      "r": 10,
+      "y": -4,
+      "x": 5
+    },
+    "0,2"
+  ],
+  [
+    {
+      "y": -0.85,
+      "x": 6
+    },
+    "0,3"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 4
+    },
+    "0,1",
+    {
+      "x": 2
+    },
+    "0,4"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3
+    },
+    "0,0"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 5
+    },
+    "1,2"
+  ],
+  [
+    {
+      "y": -0.8500000000000001,
+      "x": 6
+    },
+    "1,3"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 4
+    },
+    "1,1",
+    {
+      "x": 2
+    },
+    "1,4"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3
+    },
+    "1,0"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 5
+    },
+    "2,2"
+  ],
+  [
+    {
+      "y": -0.8500000000000001,
+      "x": 6
+    },
+    "2,3"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 4
+    },
+    "2,1",
+    {
+      "x": 2
+    },
+    "2,4"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3
+    },
+    "2,0"
+  ],
+  [
+    {
+      "y": -0.25,
+      "x": 5.5
+    },
+    "3,2"
+  ],
+  [
+    {
+      "r": 20,
+      "y": -2.19,
+      "x": 7.135
+    },
+    "3,3"
+  ],
+  [
+    {
+      "r": 30,
+      "y": -2.48,
+      "x": 8.535
+    },
+    "3,4"
+  ],
+  [
+    {
+      "r": -30,
+      "y": 8.07,
+      "x": 6.15
+    },
+    "3,5"
+  ],
+  [
+    {
+      "r": -20,
+      "y": -2.3499999999999996,
+      "x": 8.85
+    },
+    "3,6"
+  ],
+  [
+    {
+      "r": -10,
+      "y": -6.200000000000001,
+      "x": 11.75
+    },
+    "0,7"
+  ],
+  [
+    {
+      "y": -0.8499999999999996,
+      "x": 10.75
+    },
+    "0,6"
+  ],
+  [
+    {
+      "y": -0.8999999999999999,
+      "x": 12.75
+    },
+    "0,8"
+  ],
+  [
+    {
+      "y": -0.9499999999999997,
+      "x": 9.75
+    },
+    "0,5"
+  ],
+  [
+    {
+      "y": -0.8000000000000003,
+      "x": 13.75
+    },
+    "0,9"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 11.75
+    },
+    "1,7"
+  ],
+  [
+    {
+      "y": -0.8499999999999996,
+      "x": 10.75
+    },
+    "1,6"
+  ],
+  [
+    {
+      "y": -0.9000000000000004,
+      "x": 12.75
+    },
+    "1,8"
+  ],
+  [
+    {
+      "y": -0.9499999999999993,
+      "x": 9.75
+    },
+    "1,5"
+  ],
+  [
+    {
+      "y": -0.8000000000000007,
+      "x": 13.75
+    },
+    "1,9"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 11.75
+    },
+    "2,7"
+  ],
+  [
+    {
+      "y": -0.8499999999999996,
+      "x": 10.75
+    },
+    "2,6"
+  ],
+  [
+    {
+      "y": -0.9000000000000004,
+      "x": 12.75
+    },
+    "2,8"
+  ],
+  [
+    {
+      "y": -0.9499999999999993,
+      "x": 9.75
+    },
+    "2,5"
+  ],
+  [
+    {
+      "y": -0.8000000000000007,
+      "x": 13.75
+    },
+    "2,9"
+  ],
+  [
+    {
+      "y": -0.14999999999999947,
+      "x": 11.25
+    },
+    "3,7"
+  ]
+]
+  }
+}
